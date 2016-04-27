@@ -16,6 +16,7 @@
 	</head>
 
 	<body>
+	<div class="navbar-fixed">
 		<nav class="white" role="navigation">
 	    <div class="nav-wrapper container">
 	      <a id="logo-container" href="#" class="brand-logo">Steve and Andres</a>
@@ -35,74 +36,125 @@
 	      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 	    </div>
 	  </nav>
+	</div>
 
-	  <div id="index-banner" class="parallax-container">
-	    <div class="section no-pad-bot">
-	      <div class="container">
-	        <br><br>
-	        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-	        <div class="row center">
-	          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-	        </div>
-	        <div class="row center">
-	          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-	        </div>
-	        <br><br>
+	<div class="slider">
+		<ul class="slides">
+		 <li>
+			 <img src="header1.jpg"> <!-- random image -->
+			 <div class="caption center-align">
+				 <h3>Reserve Now</h3>
+				 <h5 class="light grey-text text-lighten-3">Don't like waiting? Reserve a table now</h5>
+			 </div>
+		 </li>
+		 <li>
+			 <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+			 <div class="caption left-align">
+				 <h3>Left Aligned Caption</h3>
+				 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			 </div>
+		 </li>
+		 <li>
+			 <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+			 <div class="caption center-align">
+				 <h3>This is our big Tagline!</h3>
+				 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			 </div>
+		 </li>
+		</ul>
+	</div>
 
+
+	<div class="container">
+		<h1 class="center-align">Make a reservation</h5>
+		<div class="row">
+	    <form class="col s12">
+	      <div class="row">
+	        <div class="input-field col s6">
+	          <input placeholder="John Smith" id="name" type="text" class="validate">
+	          <label for="name">Name</label>
+	        </div>
+	        <div class="input-field col s6">
+	          <input placeholder="1234567890" id="phone" type="tel" class="validate">
+	          <label for="phone">Phone</label>
+	        </div>
 	      </div>
-	    </div>
-	    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+	      <div class="row">
+					<div class="input-field col s6">
+	          <input placeholder="johnsmith@gmail.com" id="email" type="email" class="validate">
+	          <label for="email">Email</label>
+	        </div>
+	        <div class="input-field col s6">
+	          <input placeholder=3 id="totalGuest" type="number" class="validate">
+	          <label for="totalGuest">How many people?</label>
+	        </div>
+	      </div>
+	      <div class="row">
+					<div class="input-field col s6">
+	          <input id="date" type="date" class="validate">
+	          <label for="date">Date</label>
+	        </div>
+	        <div class="input-field col s6">
+	          <input id="time" type="datetime" class="validate">
+	          <label for="time">Time</label>
+	        </div>
+	      </div>
+				<div class="row">
+					<div class="col s12 center-align">
+						<button class="btn waves-effect waves-light" type="submit" name="action">Reserve
+	 						<i class="material-icons right">send</i>
+					 	</button>
+			 		</div>
+	      </div>
+	    </form>
 	  </div>
+	</div>
 
-		<div class="container">
-			<h1 class="center-align">Reservation</h5>
+	<div class="parallax-container valign-wrapper">
+		<div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Nothing beats fresh.  We support our local farmers.</h5>
+        </div>
+      </div>
+    </div>
+		<div class="parallax parallax-filter"><img src="localfarmer.jpg"></div>
+	</div>
+
+	<div class="container valign-wrapper">
+    <div class="section center">
+			<!--   Our Chefs   -->
 			<div class="row">
-		    <form class="col s12">
-		      <div class="row">
-		        <div class="input-field col s6">
-		          <input placeholder="John Smith" id="name" type="text" class="validate">
-		          <label for="name">Name</label>
-		        </div>
-		        <div class="input-field col s6">
-		          <input placeholder="1234567890" id="phone" type="tel" class="validate">
-		          <label for="phone">Phone</label>
-		        </div>
-		      </div>
-		      <div class="row">
-						<div class="input-field col s6">
-		          <input placeholder="johnsmith@gmail.com" id="email" type="email" class="validate">
-		          <label for="email">Email</label>
-		        </div>
-		        <div class="input-field col s6">
-		          <input placeholder=3 id="totalGuest" type="number" class="validate">
-		          <label for="totalGuest">How many people?</label>
-		        </div>
-		      </div>
-		      <div class="row">
-						<div class="input-field col s6">
-		          <input id="date" type="date" class="validate">
-		          <label for="date">Date</label>
-		        </div>
-		        <div class="input-field col s6">
-		          <input id="time" type="datetime" class="validate">
-		          <label for="time">Time</label>
-		        </div>
-		      </div>
-					<div class="row">
-						<div class="col s12 center-align">
-							<button class="btn waves-effect waves-light" type="submit" name="action">Submit
-		 						<i class="material-icons right">send</i>
-						 	</button>
-				 		</div>
-		      </div>
-		    </form>
-		  </div>
-		</div>
+				<div class="col m12 ">
+					<h2>Our Chefs</h2>
+				</div>
+				<div class="cf"></div>
+				<div class="col m12 ">
+					<p class="flow-text">Our restaurant wouldn't serve its great food without great chefs. Skilled.  Passionate.  Dedicated.</p>
+				</div>
+			</div>
 
-		<!--  Scripts -->
-		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script src="js/materialize/materialize.js"></script>
-		<script src="js/materialize/init.js"></script>
+      <!--   List of Chefs   -->
+      <div class="row">
+        <div class="col s12 m6">
+            <h5 class="center">David Garcia</h5>
+            <p class="light">Cupcake ipsum dolor sit amet tiramisu cotton candy. Donut dragée candy canes bonbon caramels jujubes jelly topping.</p>
+        </div>
+
+        <div class="col s12 m6">
+            <h5 class="center">Greg Flourant</h5>
+            <p class="light">Cupcake ipsum dolor sit amet tiramisu cotton candy. Donut dragée candy canes bonbon caramels jujubes jelly topping</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+	<!--  Scripts -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize/materialize.js"></script>
+	<script src="js/materialize/init.js"></script>
 
 	</body>
 </html>
