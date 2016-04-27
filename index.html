@@ -75,7 +75,7 @@
 	          <label for="name">Name</label>
 	        </div>
 	        <div class="input-field col s6">
-	          <input placeholder="1234567890" id="phone" type="tel" length="10" class="validate">
+	          <input placeholder="1234567890" id="phone" type="tel" length="10" maxlength="10" class="validate">
 	          <label for="phone">Phone</label>
 	        </div>
 	      </div>
@@ -85,7 +85,7 @@
 	          <label for="email" data-error="Invalid Email" data-success="Valid Email">Email</label>
 	        </div>
 	        <div class="input-field col s6">
-	          <input placeholder=3 id="totalGuest" type="number" class="validate">
+	          <input placeholder=3 id="totalGuest" type="number" min="1" max="100" maxlength="3" class="validate">
 	          <label for="totalGuest">How many people?</label>
 	        </div>
 	      </div>
