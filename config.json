@@ -3,8 +3,8 @@
 	"api" : {
 		"host" : "api.sandbox.paypal.com",
 		"port" : "",
-		"client_id" : "EBWKjlELKMYqRNQ6sYvFo64FtaRLRR5BdHEESmha49TM",
-		"client_secret" : "EO422dn3gQLgDbuwqTjzrFgFtaRLRR5BdHEESmha49TM"
+		"client_id" : "AYYOs_7F0vnJ1jI6_MV8tGl3hUqdrknWBmR_kzhRDBP8ir_BUs2kdgaDnYP56Cun2Fxf9APu0M3Tuj9f",
+		"client_secret" : "EKNDWyNDlPHum-QKujzbTL1kjSLmh3ePT9gakjmOVs5US3HUfUkOLXjXcLaJTokGKahl8r7H7sxdQI6W"
 	},
-	"mongo" : "mongodb://localhost:27017/paypal_pizza"
+	"mongo" : "mongodb://localhost:27017/menu"
 }
