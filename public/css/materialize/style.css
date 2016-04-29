@@ -102,3 +102,8 @@ footer.page-footer {
 .pushdown {
     padding-top: 5%;
 }
+
+.container .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}

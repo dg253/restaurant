@@ -152,38 +152,38 @@
 	  <div class='row'>
 	    <div class='col s3'>
 	      <div class='image'>
-	        <img alt="Pizza 6" src="../images/0000000000000000000000000000006" />
+	        <img alt="Chicken Sandwich" src="../images/chicken.jpg" />
 	      </div>
 	      <div class='details'>
 	        20.00$
-	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza6" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
+	        <a href="/orderConfirm?orderAmount=37.00&orderDescription=ChickenSandwich" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
 	      </div>
 	    </div>
 	    <div class='col s3'>
 	      <div class='image'>
-	        <img alt="Pizza 7" src="../images/0000000000000000000000000000007" />
+	        <img alt="Turkey Sandwich" src="../images/turkey.jpg" />
 	      </div>
 	      <div class='details'>
 	        20.00$
-	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza7" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
+	        <a href="/orderConfirm?orderAmount=23.00&orderDescription=TurkeySandwich" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
 	      </div>
 	    </div>
 	    <div class='col s3'>
 	      <div class='image'>
-	        <img alt="Pizza 8" src="../images/0000000000000000000000000000008" />
+	        <img alt="Ham Sandwich" src="../images/ham.jpg" />
 	      </div>
 	      <div class='details'>
 	        20.00$
-	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza8" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
+	        <a href="/orderConfirm?orderAmount=9.00&orderDescription=HamSandwich" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
 	      </div>
 	    </div>
 			<div class='col s3'>
 	      <div class='image'>
-	        <img alt="Pizza 8" src="../images/0000000000000000000000000000008" />
+	        <img alt="Tuna Sandwich" src="../images/tuna.jpg" />
 	      </div>
 	      <div class='details'>
 	        20.00$
-	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza8" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
+	        <a href="/orderConfirm?orderAmount=7.00&orderDescription=TunaSandwich" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
 	      </div>
 	    </div>
 	  </div>
