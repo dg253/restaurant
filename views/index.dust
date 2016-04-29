@@ -80,6 +80,19 @@
 	  </div>
 	</div>
 
+	<!-- Parallax Fresh Produce -->
+	<div class="parallax-container valign-wrapper">
+		<div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Nothing beats fresh.  We support our local farmers.</h5>
+        </div>
+      </div>
+    </div>
+		<div class="parallax parallax-filter"><img src="../images/localfarmer.jpg"></div>
+	</div>
+
+
   <div class='container' id='content'>
 
 	  <div class='row pizza-row'>
