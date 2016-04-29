@@ -34,11 +34,12 @@
 		</ul>
 	</div>
 
+	<!-- About Us -->
 	<div class="container valign-wrapper">
     <div class="section center">
-			<!--   Who We Are Chefs   -->
+			<!--   About Us -->
 			<div class="row">
-				<div class="col m12 center">
+				<div class="col m12 ">
 					<h2>About Us</h2>
 				</div>
 				<div class="cf"></div>
@@ -48,6 +49,7 @@
 			</div>
     </div>
   </div>
+	-
 
 	<!-- Make A Reservation -->
 	<div class="container">
