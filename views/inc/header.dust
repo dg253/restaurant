@@ -17,9 +17,9 @@
 			<a class='brand' href='/'>IT310 Restaurant</a>
 			<div class='nav-collapse'>
 				<ul class='nav'>
-					<li><a href="/menu">Menu</a></li>
 					<li><a href="/chefs">Chefs</a></li>
 					<li><a href="/about">About</a></li>
+					<li><a href="/menu">Menu</a></li>
 					<li><a href='/orderList'>Orders</a></li>
 				</ul>
 			</div>
