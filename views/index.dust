@@ -38,7 +38,7 @@
 	<div class="container valign-wrapper">
     <div class="section center">
 			<!--   About Us -->
-			<div class="row">
+			<div class="row center">
 				<div class="col m12 ">
 					<h2>About Us</h2>
 				</div>
@@ -49,7 +49,7 @@
 			</div>
     </div>
   </div>
-	
+
 
 	<!-- Make A Reservation -->
 	<div class="container">
