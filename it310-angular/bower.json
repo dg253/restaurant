@@ -11,7 +11,5 @@
     "angular-resource": "~1.2.x",
     "ngcart": "https://github.com/snapjay/ngCart.git#master",
     "rainbow": "~1.1.9",
-    "bootstrap": "~3.3.1",
-    "materialize": "*"
-  }
+    "bootstrap": "~3.3.1"  }
 }

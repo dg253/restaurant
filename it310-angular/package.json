@@ -1,17 +1,21 @@
 {
-    "name": "IT310",
+    "name": "ngCart",
     "private": false,
     "version": "0.0.1",
-    "description": "IT310 sample restaurant ecommerce",
-    "license": "MIT"
-    ,
+    "description": "ngCart",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/snapjay/ngcart.git"
+    },
     "path": {
         "app": "app",
         "dist": "build"
     },
     "author": {
-        "name": "David Garcia",
-        "email": "dg253@njit.edu"
+        "name": "Dan Shreim",
+        "email": "dan@snapjay.com",
+        "url": "http://snapjay.com"
     },
     "devDependencies": {   "karma": "~0.10",
         "protractor": "^1.1.1",
