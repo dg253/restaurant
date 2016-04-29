@@ -8705,14 +8705,20 @@ a.badge:hover {
 }
 @media (max-width: 767px) {
   body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .row {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .container-fluid {
     padding: 0;
@@ -8878,7 +8884,7 @@ a.badge:hover {
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .navbar-fixed-bottom {
     margin-top: 20px;
