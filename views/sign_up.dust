@@ -1,20 +1,20 @@
  {>layout/}
 {<content}
- <div class='container' id='content'>    
+ <div class='container' id='content'>
  	{#message}
 	<div class="alert fade in alert-{type}">
 		<button class="close" data-dismiss="alert">&times;</button>
 		{desc}
 	</div>
-	{/message}  
+	{/message}
 	<h2>Sign up</h2>
-	<p>Sign up for a new PizzaShop account.</p>
+	<p>Sign up for a new IT310 account.</p>
 	<form accept-charset="UTF-8" action="" autocomplete="off" class="simple_form form-horizontal new_user" id="new_user" method="post" novalidate="novalidate">
-        
+
 		<div class="control-group email required">
 			<label class="email required control-label" for="user_email"><abbr title="required">*</abbr> Email</label>
 			<div class="controls">
-				<input autofocus="autofocus" class="string email required" id="user_email" name="user[email]" size="50" type="email" value="" placeholder="dummy@email.com"/>
+				<input autofocus="autofocus" class="string email required" id="user_email" name="user[email]" size="50" type="email" value="" placeholder="john@example.com"/>
 			</div>
 		</div>
         <div class="control-group password required">
@@ -29,7 +29,7 @@
         		<input class="password required" id="user_password_confirmation" name="user[password_confirmation]" size="50" type="password" />
     		</div>
 		</div>
-        
+
         <legend>Add Credit Card (Optional)</legend>
 		<p>Your credit card information is stored safely with PayPal.</p>
         <div class="control-group select required">
@@ -43,7 +43,7 @@
 			        <option value="amex">amex</option>
 				</select>
 			</div>
-		</div>        
+		</div>
         <div class="control-group string required">
         	<label class="string required control-label" for="user_credit_card_number"><abbr title="required">*</abbr> Number</label>
         	<div class="controls"><input class="string required" id="user_credit_card_number" name="user[credit_card][number]" size="50" type="text" /></div>
@@ -53,7 +53,7 @@
         	<div class="controls">
         		<input class="string optional" id="user_credit_card_cvv2" name="user[credit_card][cvv2]" size="50" type="text" />
     		</div>
-		</div>        
+		</div>
         <div class="control-group select required">
         	<label class="select required control-label" for="user_credit_card_expire_month"><abbr title="required">*</abbr> Expire month</label>
         	<div class="controls">
@@ -92,12 +92,12 @@
 			        <option value="2023">2023</option>
 		        </select>
 	        </div>
-        </div>  
+        </div>
         <div class='form-actions'>
 			<input class="btn btn btn-primary" name="commit" type="submit" value="Sign up" />
 	    </div>
 	</form>
-	<a href="sign_in.php">Sign in</a><br />
-	<a href="newpassword.php">Forgot your password?</a><br />
+	<a href="signin">Sign in</a><br />
+	<a href="newpassword">Forgot your password?</a><br />
 </div>
 {/content}
