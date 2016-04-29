@@ -35,7 +35,7 @@
 	</div>
 
 	<!-- About Us -->
-	<div class="container valign-wrapper about fullwidth">
+	<div class="fullwidth container valign-wrapper about">
     <div class="section center-block">
 			<div class="row center">
 				<div class="col m12 ">
