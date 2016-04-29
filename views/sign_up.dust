@@ -1,6 +1,6 @@
  {>layout/}
 {<content}
- <div class='container' id='content'>
+ <div class='container pushdown' id='content'>
  	{#message}
 	<div class="alert fade in alert-{type}">
 		<button class="close" data-dismiss="alert">&times;</button>
