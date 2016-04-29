@@ -35,7 +35,7 @@ exports.completesignup = function (req, res) {
 	if (user.password !== user.password_confirmation) {
 		res.render('sign_up', {message: [{desc: "Passwords do not match", type: "error"}]});
 	} else {
-		//TODO: Add card validation		
+		//TODO: Add card validation
 		var card = {type: userCard.type, number: userCard.number, cvv2: userCard.cvv2, expire_month: userCard.expire_month, expire_year: userCard.expire_year };
 
 		paypal.credit_card.create(card, {}, function (err, card) {
@@ -221,7 +221,7 @@ exports.order = function (req, res) {
 	            "amount": {
 	                "currency": "USD"
 	            },
-	            "description": "This is the payment description."
+	            "description": "IT310 Resturant Paypal Order"
 	        }]
 	    };
 
