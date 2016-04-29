@@ -36,7 +36,7 @@
 
 	<!-- About Us -->
 	<div class="container valign-wrapper">
-    <div class="section center">
+    <div class="section center-block">
 			<div class="row">
 				<div class="col m12 ">
 					<h2>About Us</h2>
