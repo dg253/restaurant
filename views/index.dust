@@ -34,21 +34,18 @@
 		</ul>
 	</div>
 
-	<!-- About Us -->
 	<div class="container valign-wrapper">
     <div class="section center">
 			<!--   Who We Are Chefs   -->
 			<div class="row">
-				<div class="col m12 ">
+				<div class="col m12 center">
 					<h2>About Us</h2>
 				</div>
 				<div class="cf"></div>
-				<div class="col m12">
+				<div class="col m12 ">
 					<p class="flow-text">Local favorite for 30 years.  Breakfast | Lunch | Dinner. </p>
 				</div>
 			</div>
-
-
     </div>
   </div>
 
