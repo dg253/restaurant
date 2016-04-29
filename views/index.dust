@@ -34,17 +34,17 @@
 		</ul>
 	</div>
 
-	<!-- About Us -->
+	<!-- Chefs -->
 	<div class="container valign-wrapper">
     <div class="section center">
-
+			<!--   Our Chefs   -->
 			<div class="row">
 				<div class="col m12 ">
 					<h2>About Us</h2>
 				</div>
 				<div class="cf"></div>
 				<div class="col m12 ">
-					<p class="flow-text">Local favorite for 30 years.  Bring your friends over for breakfast, lunch, and dinner!</p>
+					<p class="flow-text">Our restaurant wouldn't serve its great food without great chefs. Skilled.  Passionate.  Dedicated.</p>
 				</div>
 			</div>
     </div>
