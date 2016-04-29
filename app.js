@@ -29,7 +29,7 @@ if ( template_engine == 'dust' ) {
 app.configure(function() {
 	app.set('template_engine', template_engine);
 	app.set('domain', domain);
-	app.set('port', config.port || 2337);
+	app.set('port', config.port || 3000);
 	app.set('views', __dirname + '/views');
 	app.set('view engine', template_engine);
 	app.use(express.favicon());
@@ -37,7 +37,7 @@ app.configure(function() {
 	app.use(express.logger('dev'));
 	app.use(express.bodyParser());
 	app.use(express.cookieParser());
-	app.use(express.session({ secret: 'jdddg2337', store: store }));
+	app.use(express.session({ secret: 'whatever', store: store }));
 	app.use(express.session());
 	app.use(express.static(path.join(__dirname, 'public')));
 	app.use(flash());
@@ -61,8 +61,6 @@ app.get('/signout', routes.signout);
 
 app.get('/profile', routes.auth, routes.profile);
 app.post('/profile', routes.auth, routes.updateprofile);
-
-app.get('/menu', routes.auth, routes.menu);
 
 app.get('/order', routes.auth, routes.order);
 app.get('/orderList', routes.auth, routes.orderList);
