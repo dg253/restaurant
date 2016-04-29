@@ -1,16 +1,9 @@
 {
-  "author": "PayPal <DL-PP-Platform-NodeJs-SDK@ebay.com> (https://developer.paypal.com/)",
-  "name": "paypal-rest-sample",
+  "author": "David Garcia",
+  "name": "IT310",
   "version": "1.0.0",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/paypal/rest-api-sample-nodejs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/paypal/rest-api-sample-nodejs/issues",
-    "email": "DL-PP-Platform-NodeJs-SDK@ebay.com"
-  },
+  "private": true
+  ,
   "scripts": {
     "start": "node app.js"
   },
@@ -23,12 +16,12 @@
     "consolidate": "0.10.0",
     "connect-flash": "0.1.1",
     "node-uuid": "1.4.1",
-    "crypto" : "0.0.3" 
+    "crypto" : "0.0.3"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.3.0"
-  },  
+  },
   "engines": {
     "node": "0.8.x"
   }
