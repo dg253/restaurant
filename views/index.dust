@@ -122,6 +122,19 @@
     </div>
   </div>
 
+
+	<!-- Parallax Great Food-->
+	<div class="parallax-container valign-wrapper">
+		<div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Local Favorite.  Come find out why if you're friends haven't told you.</h5>
+        </div>
+      </div>
+    </div>
+		<div class="parallax parallax-filter"><img src="../images/greatfood.jpg"></div>
+	</div>
+
 	<!-- Our Menu -->
   <div class='container' id='content'>
 
