@@ -126,7 +126,7 @@
   <div class='container' id='content'>
 
 	  <div class='row'>
-	    <div class='col-md-4'>
+	    <div class='col s4'>
 	      <div class='image'>
 	        <img alt="Pizza 6" src="../images/0000000000000000000000000000006" />
 	      </div>
@@ -135,7 +135,7 @@
 	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza6" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
 	      </div>
 	    </div>
-	    <div class='col-md-4'>
+	    <div class='col s4'>
 	      <div class='image'>
 	        <img alt="Pizza 7" src="../images/0000000000000000000000000000007" />
 	      </div>
@@ -144,7 +144,7 @@
 	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza7" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
 	      </div>
 	    </div>
-	    <div class='col-md-4'>
+	    <div class='col s4'>
 	      <div class='image'>
 	        <img alt="Pizza 8" src="../images/0000000000000000000000000000008" />
 	      </div>
