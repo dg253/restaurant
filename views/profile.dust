@@ -1,22 +1,22 @@
 {>layout/}
 {<content}
-    <div class='container' id='content'>
+    <div class='container pushdown' id='content'>
 		{#message}
 		<div class="alert fade in alert-{type}">
 			<button class="close" data-dismiss="alert">&times;</button>
 			{desc}
 		</div>
-		{/message}    
+		{/message}
 		<h2>Edit profile</h2>
 		<form accept-charset="UTF-8" action="" autocomplete="off" class="simple_form form-horizontal edit_user" id="edit_user" method="post" novalidate="novalidate">
-		
+
         	<div class="control-group email required">
         		<label class="email required control-label" for="user_email"> Email</label>
         		<div class="controls">
         			<input autofocus="autofocus" class="string email required" id="user_email" name="user[email]" size="50" type="email" value="{user.email}" readonly="true" />
     			</div>
 			</div>
-        	
+
         	<legend>Change password</legend>
         	<div class="control-group password optional">
         		<label class="password optional control-label" for="user_password">Password</label>
@@ -25,14 +25,14 @@
         			<p class="help-block">leave it blank if you don't want to change it</p>
     			</div>
 			</div>
-			
+
         	<div class="control-group password optional">
         		<label class="password optional control-label" for="user_password_confirmation">Password confirmation</label>
         		<div class="controls">
 	        		<input class="password optional" id="user_password_confirmation" name="user[password_confirmation]" size="50" type="password" />
 	    		</div>
     		</div>
-        
+
         	<a name="currentcard"></a>
         	<legend>Existing Credit card</legend>
 			<div class='control-group'>
@@ -59,7 +59,7 @@
 					<label class='checkbox'>{card.expire_year}</label>
 	          	</div>
 	        </div>
-	        
+
         	<a name="newcard"></a>
         	<legend>Update Credit Card</legend>
         	<div class="control-group select required">
@@ -79,7 +79,7 @@
         		<div class="controls">
         			<input class="string required" id="user_credit_card_number" name="user[credit_card][number]" size="50" type="text" />
     			</div>
-			</div>        
+			</div>
         	<div class="control-group string optional">
         		<label class="string required control-label" for="user_credit_card_cvv2">Cvv2</label>
         		<div class="controls">
@@ -124,7 +124,7 @@
 				        <option value="2023">2023</option>
 			        </select>
 		        </div>
-	        </div>  
+	        </div>
         	<legend>Confirmation</legend>
         	<div class="control-group password required">
         		<label class="password required control-label" for="user_current_password"><abbr title="required">*</abbr> Current password</label>
@@ -136,6 +136,6 @@
         	<div class='form-actions'>
 	          	<input class="btn btn btn-primary" name="commit" type="submit" value="Update" />
 	        </div>
-      </form>     
+      </form>
     </div>
 {/content}
