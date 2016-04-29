@@ -62,6 +62,8 @@ app.get('/signout', routes.signout);
 app.get('/profile', routes.auth, routes.profile);
 app.post('/profile', routes.auth, routes.updateprofile);
 
+app.get('/menu', routes.auth, routes.menu);
+
 app.get('/order', routes.auth, routes.order);
 app.get('/orderList', routes.auth, routes.orderList);
 app.post('/orderConfirm', routes.auth, routes.orderconfirm);
