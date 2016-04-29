@@ -13,6 +13,14 @@ exports.index = function (req, res) {
 	res.render('index', {message: message});
 };
 
+//menu page
+exports.menu = function (req, res) {
+	res.locals.session = req.session;
+	var error = req.flash('error');
+	var message = error.length > 0 ? error[0].message : error;
+	res.render('menu', {message: message});
+};
+
 // Authentication middleware
 exports.auth = function (req, res, next) {
 	if (req.session.authenticated) {

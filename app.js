@@ -29,7 +29,7 @@ if ( template_engine == 'dust' ) {
 app.configure(function() {
 	app.set('template_engine', template_engine);
 	app.set('domain', domain);
-	app.set('port', config.port || 3000);
+	app.set('port', config.port || 2337);
 	app.set('views', __dirname + '/views');
 	app.set('view engine', template_engine);
 	app.use(express.favicon());
@@ -59,10 +59,10 @@ app.get('/signin', routes.signin);
 app.post('/login', routes.dologin);
 app.get('/signout', routes.signout);
 
+app.get('/menu', routes.menu);
+
 app.get('/profile', routes.auth, routes.profile);
 app.post('/profile', routes.auth, routes.updateprofile);
-
-app.get('/menu', routes.auth, routes.menu);
 
 app.get('/order', routes.auth, routes.order);
 app.get('/orderList', routes.auth, routes.orderList);
