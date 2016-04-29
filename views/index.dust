@@ -153,32 +153,6 @@
 	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza8" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
 	      </div>
 	    </div>
-	    <div class='span2'>
-	      <div class='image'>
-	        <img alt="Pizza 9" src="../images/0000000000000000000000000000009" />
-	      </div>
-	      <div class='details'>
-	        20.00$
-	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza9" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
-	      </div>
-	    </div>
-	    <div class='span2'>
-	      <div class='image'>
-	        <img alt="Pizza 10" src="../images/00000000000000000000000000000010" />
-	      </div>
-	      <div class='details'>
-	        20.00$
-	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza10" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
-	      </div>
-	    </div>
-	    <div class='span2'>
-	      <div class='image'>
-	        <img alt="Pizza 11" src="../images/00000000000000000000000000000011" />
-	      </div>
-	      <div class='details'>
-	        20.00$
-	        <a href="/orderConfirm?orderAmount=20.00&orderDescription=Pizza11" class="btn btn-small" data-disable-with="Procesing.." data-method="get" rel="nofollow">Buy</a>
-	      </div>
 	    </div>
 	  </div>
 	  <br/><br/><br/>
