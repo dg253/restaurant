@@ -1,7 +1,7 @@
-var template_engine = 'dust', 
+var template_engine = 'dust',
 	domain = 'localhost';
 
-var express = require('express'), 
+var express = require('express'),
 	routes = require('./routes'),
 	http = require('http'),
 	store = new express.session.MemoryStore,
@@ -25,23 +25,23 @@ if ( template_engine == 'dust' ) {
 	var dust = require('dustjs-linkedin'),
 		cons = require('consolidate');
 	app.engine('dust', cons.dust);
-} 
+}
 app.configure(function() {
 	app.set('template_engine', template_engine);
 	app.set('domain', domain);
-	app.set('port', config.port || 3000);
+	app.set('port', config.port || 2337);
 	app.set('views', __dirname + '/views');
 	app.set('view engine', template_engine);
 	app.use(express.favicon());
 	app.use(express.compress());
-	app.use(express.logger('dev'));	
-	app.use(express.bodyParser());	
+	app.use(express.logger('dev'));
+	app.use(express.bodyParser());
 	app.use(express.cookieParser());
-	app.use(express.session({ secret: 'whatever', store: store }));
+	app.use(express.session({ secret: 'jdddg2337', store: store }));
 	app.use(express.session());
 	app.use(express.static(path.join(__dirname, 'public')));
-	app.use(flash());	
-	app.use(app.router);		
+	app.use(flash());
+	app.use(app.router);
 });
 
 app.configure('development', function(){
