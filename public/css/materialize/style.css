@@ -98,3 +98,7 @@ footer.page-footer {
   margin-right: 0px;
   width: 100%
 }
+
+.container {
+  margin-top: 50px;
+}
