@@ -85,3 +85,16 @@ footer.page-footer {
   bottom: 70px;
   z-index: 37;
 }
+
+.aboutus {
+  margin-top: -40px;
+  padding-top: 40px;
+  background: whitesmoke;
+}
+
+.fullwidth {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%
+}
