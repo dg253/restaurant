@@ -8704,6 +8704,10 @@ a.badge:hover {
   }
 }
 @media (max-width: 767px) {
+  .slider body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   body {
     padding-left: 20px;
     padding-right: 20px;
