@@ -125,7 +125,7 @@
 	<!-- Our Menu -->
   <div class='container' id='content'>
 
-	  <div class='row pizza-row'>
+	  <div class='row'>
 	    <div class='col-md-4'>
 	      <div class='image'>
 	        <img alt="Pizza 6" src="../images/0000000000000000000000000000006" />
