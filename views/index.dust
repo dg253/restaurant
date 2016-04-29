@@ -34,6 +34,23 @@
 		</ul>
 	</div>
 
+	<!-- About Us -->
+	<div class="container valign-wrapper">
+    <div class="section center">
+			<!--   Who We Are Chefs   -->
+			<div class="row">
+				<div class="col m12 ">
+					<h2>About Us</h2>
+				</div>
+				<div class="cf"></div>
+				<div class="col m12 ">
+					<p class="flow-text">Local favorite for 30 years.  Breakfast | Lunch | Dinner.  Favorite place to eat and hangout with your loved ones.</p>
+				</div>
+			</div>
+
+    </div>
+  </div>
+
 	<!-- Make A Reservation -->
 	<div class="container">
 		<h1 class="center-align">Make a reservation</h5>
