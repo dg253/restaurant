@@ -37,9 +37,15 @@ exports.completesignup = function (req, res) {
 		res.render('sign_up', {message: [{desc: "Passwords do not match", type: "error"}]});
 	} else {
 		//TODO: Add card validation
-		var card = {type: userCard.type, number: userCard.number, cvv2: userCard.cvv2, expire_month: userCard.expire_month, expire_year: userCard.expire_year };
+		var card = {"type": userCard.type,
+								"number": userCard.number,
+								"cvv2": userCard.cvv2,
+								"expire_month": userCard.expire_month,
+								"expire_year": userCard.expire_year,
+							 	"first_name": "David",
+								"last_name": "Garcia"};
 
-		paypal.credit_card.create(card, {}, function (err, card) {
+		paypal.credit_card.create(card, function (err, card) {
 			var cardId = (err) ? "" : card.id;
 			db.createUser(user.email, user.password, cardId, function (dbErr, response) {
 				if (dbErr) {
@@ -48,7 +54,7 @@ exports.completesignup = function (req, res) {
 					req.session.authenticated = true;
 					req.session.email = user.email;
 					if (err && (userCard.type !== '' || userCard.number !== '')) {
-						console.log("card creation error: " + JSON.stringify(err.error.details));
+						console.log("card creation error: " + JSON.stringify(err));
 						req.flash('error', {message: [{desc: "You have been signed up but we had trouble saving your credit card.", type: "error"}]});
 					} else {
 						req.flash('error', {message: [{desc: "You have been signed up successfully", type: "info"}]});
