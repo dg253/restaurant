@@ -37,7 +37,7 @@ app.configure(function() {
 	app.use(express.logger('dev'));
 	app.use(express.bodyParser());
 	app.use(express.cookieParser());
-	app.use(express.session({ secret: 'whatever', store: store }));
+	app.use(express.session({ secret: 'jdddg2337', store: store }));
 	app.use(express.session());
 	app.use(express.static(path.join(__dirname, 'public')));
 	app.use(flash());
