@@ -10,8 +10,7 @@
     <link rel="shortcut icon" href="../favicon.ico">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="../css/materialize/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="../css/materialize/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    
     <link href="../css/application.css" media="all" rel="stylesheet" type="text/css">
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
