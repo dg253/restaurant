@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>PizzaShop</title>    
+    <title>IT310</title>
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
@@ -16,8 +16,8 @@
 	{>"inc/header"/}
     <h2 style = "margin-left:55px">{title}</h2>
 		{+content}
-			This is the base content.
+			Starting content.
 		{/content}
-	{>"inc/footer"/}	
+	{>"inc/footer"/}
   </body>
 </html>
