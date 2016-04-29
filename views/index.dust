@@ -52,7 +52,7 @@
 
 	<!-- Make A Reservation -->
 	<div class="container">
-		<h1 class="center-align">Make a reservation</h5>
+		<h2 class="center-align">Make a reservation</h2>
 		<div class="row">
 	    <form class="col s12">
 	      <div class="row">
