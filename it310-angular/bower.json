@@ -1,0 +1,17 @@
+{
+  "name": "IT310",
+  "description": "IT310 sample restaurant ecommerce",
+  "version": "0.0.0",
+  "homepage": "tbd",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-ui-router": "0.*",
+    "angular-resource": "~1.2.x",
+    "ngcart": "https://github.com/snapjay/ngCart.git#master",
+    "rainbow": "~1.1.9",
+    "bootstrap": "~3.3.1",
+    "materialize": "*"
+  }
+}
