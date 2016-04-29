@@ -86,13 +86,13 @@ footer.page-footer {
   z-index: 37;
 }
 
-.aboutus {
+.aboutus .container{
   margin-top: -40px;
   padding-top: 40px;
   background: whitesmoke;
 }
 
-.fullwidth {
+.fullwidth .container {
   padding-left: 0px;
   margin-left: 0px;
   margin-right: 0px;
