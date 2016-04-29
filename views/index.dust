@@ -36,12 +36,12 @@
 
 	<!-- About Us -->
 	<div class="container valign-wrapper fullwidth aboutus">
-    <div class="section center-block">
-			<h2 class="center-align">About Us</h2>
+    <div class="section center">
+			<h2 >About Us</h2>
 			<div class="row">
 				<div class="cf"></div>
 				<div class="col m12 ">
-					<p class="flow-text center">30 years in the making.  Family owned.  If you haven't been told yet, we are the best in town.</p>
+					<p class="flow-text">30 years in the making.  Family owned.  If you haven't been told yet, we are the best in town.</p>
 				</div>
 			</div>
     </div>
@@ -107,26 +107,24 @@
 	</div>
 
 	<!-- Chefs -->
-	<div class="container valign-wrapper">
-    <div class="section center">
+	<div class="container valign-wrapper fullwidth">
+    <div class="section center-block">
 			<!--   Our Chefs   -->
+			<h2 class="center-align">Our Chefs</h2>
 			<div class="row">
-				<div class="col m12 ">
-					<h2>Our Chefs</h2>
-				</div>
 				<div class="cf"></div>
 				<div class="col m12 ">
-					<p class="flow-text">Our restaurant wouldn't serve its great food without great chefs. Skilled.  Passionate.  Dedicated.</p>
+					<p class="flow-text center">Our restaurant wouldn't serve its great food without great chefs. Skilled.  Passionate.  Dedicated.</p>
 				</div>
 			</div>
       <!--   List of Chefs   -->
-      <div class="row">
+      <div class="row center">
         <div class="col s12 m6">
-            <h5 class="center">David Garcia</h5>
+            <h5>David Garcia</h5>
             <p class="light">Cupcake ipsum dolor sit amet tiramisu cotton candy. Donut dragée candy canes bonbon caramels jujubes jelly topping.</p>
         </div>
         <div class="col s12 m6">
-            <h5 class="center">Greg Flourant</h5>
+            <h5>Greg Flourant</h5>
             <p class="light">Cupcake ipsum dolor sit amet tiramisu cotton candy. Donut dragée candy canes bonbon caramels jujubes jelly topping</p>
         </div>
       </div>
