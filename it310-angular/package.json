@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "description": "IT310 sample restaurant ecommerce",
     "license": "MIT"
-    },
+    ,
     "path": {
         "app": "app",
         "dist": "build"
