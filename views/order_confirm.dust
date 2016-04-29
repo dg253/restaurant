@@ -1,6 +1,6 @@
  {>layout/}
 {<content}
- <div class='container' id='content'>
+ <div class='container pushdown' id='content'>
 		<h2>Order Confirmation</h2>
 		<form accept-charset="UTF-8" action="/order"
 			class="simple_form form-horizontal new_order" id="order"
@@ -26,7 +26,7 @@
 				<div class="controls">
 					<select class="select optional" id="order_payment_method"
 						name="order_payment_method">
-                        {#credit_card}                            
+                        {#credit_card}
                             <option value="credit_card">Credit Card</option>
                         {/credit_card}
 						<option value="paypal">PayPal</option>

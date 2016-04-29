@@ -1,6 +1,6 @@
 {>layout/}
 {<content}
-	<div class='container' id='content'>
+	<div class='container pushdown' id='content'>
     {#message}
 		<div class="alert fade in alert-{type}">
 			<button class="close" data-dismiss="alert">&times;</button>
@@ -17,7 +17,7 @@
 				<th>Time</th>
 				<th>Description</th>
 			</tr>
-		</thead>			
+		</thead>
 		<tbody>
 			{#orders}
 			<tr>
@@ -25,7 +25,7 @@
 				<td>{amount}</td>
 				<td>{state}</td>
 				<td>{created_time}</td>
-				<td>{description}</td>					
+				<td>{description}</td>
 			</tr>
 		   {/orders}
 		</tbody>
